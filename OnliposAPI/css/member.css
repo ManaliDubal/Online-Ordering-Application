@@ -1,0 +1,17 @@
+/*General CSS*/
+body {color: #000; margin:auto; width: 700px; }
+a:link { color: #000; text-decoration: none; }      
+a:visited { color: #000; } 
+a:hover {color: #333333; text-decoration:underline;}
+p{font-family:"Times New Roman", Times, serif;} 
+
+/* table */
+table {width:700px;}
+table td, table th {border:none;}
+table th {background:#333333; color:#fff; font:bold 14px "Trebuchet MS", arial, helvetica, sans-serif; padding: 0.5em }
+tr.odd td {background:#b8b8b8 !important;}
+tr.even td {background:#999999 !important;}
+table td { padding: 0.5em !important;}
+
+.total { float:right; }
+.red { color:#F00; font-weight:bold; }

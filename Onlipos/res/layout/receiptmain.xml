@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_height="fill_parent" android:layout_width="fill_parent"
+android:background="@drawable/plain"
+android:gravity="center">
+  <TextView
+            android:id="@+id/customerName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#43bd00"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:paddingTop="6dip" android:layout_marginLeft="10dip" android:layout_marginTop="5dip"/>
+             <TextView
+            android:id="@+id/orderNumber"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#43bd00"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:paddingTop="6dip" android:layout_marginLeft="10dip" android:layout_marginTop="30dip"/>
+
+ <TextView
+     android:id="@+id/name"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginLeft="5dip"
+     android:layout_marginTop="63dip"
+     android:paddingBottom="2dip"
+     android:paddingTop="6dip"
+     android:text="Item Name"
+     android:textSize="16sp"
+     android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/qty"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dip"
+            android:layout_marginTop="63dip"
+            android:paddingBottom="2dip"
+            android:paddingTop="6dip"
+            android:text="Qty"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+		<!-- Description label -->
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="190dip"
+            android:layout_marginTop="68dip"
+            android:paddingBottom="2dip"
+            android:text="price"
+            android:textSize="16sp"
+            android:textStyle="bold" >
+
+        </TextView>
+        
+       <TextView
+           android:id="@+id/total"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="250dip"
+           android:layout_marginTop="68dip"
+           android:paddingBottom="2dip"
+           android:text="Sub total"
+           android:textSize="16sp"
+           android:textStyle="bold" >
+
+        </TextView>
+
+		<RelativeLayout 
+	    	android:id="@+id/LinearLayout02" 
+	    	android:layout_height="wrap_content" 
+	    	android:layout_width="match_parent"> 
+
+	    	<TextView
+	    	    android:id="@+id/grandtotal"
+	    	    android:layout_width="wrap_content"
+	    	    android:layout_height="wrap_content"
+	    	    android:layout_alignParentLeft="true"
+	    	    android:layout_marginLeft="140dip"
+	    	    android:layout_marginTop="35dip"
+	    	    android:text="Total :"
+	    	    android:textSize="20px" >
+
+			</TextView>
+
+			<TextView
+			    android:id="@+id/totalprice"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_alignBottom="@+id/grandtotal"
+			    android:layout_alignParentRight="true"
+			    android:layout_marginTop="25dip"
+			    android:layout_toRightOf="@+id/grandtotal"
+			    android:text=""
+			    android:textSize="20px" >
+
+			</TextView>  
+			 
+		</RelativeLayout>
+
+<ListView
+    android:id="@+id/android:list"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="60dip"
+    android:layout_marginTop="90dip"
+    android:cacheColorHint="#00000000"
+    android:drawSelectorOnTop="false" />
+
+<Button 
+	android:text="Home" 
+	android:id="@+id/homeBtn" 
+	android:layout_alignParentBottom="true" 
+	android:layout_height="wrap_content" 
+	android:layout_width="match_parent" android:layout_marginLeft="100dip" android:layout_marginRight="100dip">
+</Button>
+ 
+</RelativeLayout>

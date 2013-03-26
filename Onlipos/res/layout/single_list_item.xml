@@ -1,0 +1,152 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/plain"
+    android:gravity="left"
+    android:orientation="vertical" >
+        
+        <!-- Name Label -->
+
+        <TextView
+            android:id="@+id/shortname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dip"
+            android:layout_marginTop="10dip"
+            android:paddingBottom="2dip"
+            android:paddingTop="6dip"
+            android:textColor="#43bd00"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+            
+         <TextView
+             android:id="@+id/description"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_alignLeft="@+id/shortname"
+             android:layout_marginTop="40dip"
+             android:paddingBottom="2dip"
+             android:textColor="#acacac" >
+
+        </TextView>
+
+       <TextView
+           android:id="@+id/price"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignLeft="@+id/shortname"
+           android:layout_marginTop="60dip"
+           android:paddingBottom="2dip"
+           android:textColor="#acacac" >
+
+        </TextView>
+
+               
+
+		<LinearLayout
+		    android:id="@+id/LinearLayout02"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content" >
+
+			<ImageView
+			    android:id="@+id/icon"
+			    android:layout_width="80px"
+			    android:layout_height="100px"
+			    android:src="@drawable/icon" />
+
+			<TextView
+			    android:id="@+id/textView3"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginRight="10dip"
+			    android:layout_marginTop="80dip"
+			    android:text="QTY:"
+			    android:textSize="20px" />
+  	
+	        <EditText
+	            android:id="@+id/QTY"
+	            android:layout_width="49dp"
+	            android:layout_height="40px"
+	            android:layout_marginRight="100dip"
+	            android:layout_marginTop="80dip" >
+
+	         	<requestFocus></requestFocus>
+	        </EditText>
+   		 </LinearLayout>
+
+		<LinearLayout
+		    android:id="@+id/LinearLayout03"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content" >
+
+   		 </LinearLayout>
+
+		<TextView
+		    android:id="@+id/titleForm"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_marginLeft="20px"
+		    android:layout_marginTop="90px"
+		    android:text="Please Fill Up"
+		    android:textAppearance="?android:attr/textAppearanceLarge" >
+
+		</TextView>
+
+		<TextView
+		    android:id="@+id/name_header"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_marginLeft="20px"
+		    android:layout_marginTop="110px"
+		    android:text="Name:"
+		    android:textSize="15px" >
+
+		</TextView>
+
+		<EditText
+		    android:id="@+id/cname"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_marginLeft="20px"
+		    android:layout_marginRight="20px"
+		    android:layout_marginTop="130px" >
+			
+		</EditText>
+
+				<TextView
+				    android:id="@+id/course_header"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_alignParentLeft="true"
+				    android:layout_marginLeft="20px"
+				    android:layout_marginTop="165px"
+				    android:text="Course:"
+				    android:textSize="15px" >
+
+		</TextView>
+
+		<EditText
+		    android:id="@+id/course"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_marginLeft="20px"
+		    android:layout_marginRight="20px"
+		    android:layout_marginTop="185px" >
+
+		</EditText>
+
+		<Button
+		    android:id="@+id/OrderBtn"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="18px"
+		    android:layout_marginRight="18px"
+		    android:layout_marginTop="300dip"
+		    android:text="Order" >
+</Button>
+
+</RelativeLayout>

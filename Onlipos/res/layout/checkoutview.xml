@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/selectcategory"
+    >
+    <LinearLayout 
+    	android:id="@+id/LinearLayout02" 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="match_parent" android:baselineAligned="false">
+
+        <Button
+            android:id="@+id/checkoutbtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginTop="128dip"
+            android:layout_weight="1"
+            android:text="Checkout" >
+
+        </Button>
+
+        <Button
+            android:id="@+id/orderbtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="128dip"
+            android:layout_weight="1"
+            android:text="Add More" >
+
+        </Button>
+    </LinearLayout>
+    
+</LinearLayout>
